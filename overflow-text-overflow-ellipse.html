@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 features and CSS overflow, text-overflow, ellipsis</title>
+
+    <style>
+        .box{
+            width: 400px;
+            height: 300px;
+            border: 2px solid red;
+            overflow: auto;
+        }
+
+        .box1{
+            /* overflow: hidden; */
+            /* overflow: visible; */
+            /* overflow: scroll;
+            overflow-x: hidden; */
+        }
+
+        .box2{
+            /* overflow: auto; */
+            /* overflow-x: scroll; */
+            /* overflow: hidden; */
+            /* overflow: auto; */
+        }
+
+        header{
+            width: 500px;
+            border: 2px solid aqua;
+        }
+
+        .ellipsis{
+            white-space: nowrap;
+            overflow: hidden;
+            /* text-overflow: clip; */
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Exploring ellipsis</h1>
+        <p title="neque quidem corrupti eveniet dolores accusamus dicta, odit itaque alias cumque consequuntur atque repellendus autem dolorum illum recusandae eligendi culpa, quo, corporis ducimus exercitationem! Reiciendis expedita porro magnam omnis asperiores doloremque, numquam, consequatur quae ipsum iusto nostrum cumque sunt quos?" class="ellipsis">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique delectus neque quidem corrupti eveniet dolores accusamus dicta, odit itaque alias cumque consequuntur atque repellendus autem dolorum illum recusandae eligendi culpa, quo, corporis ducimus exercitationem! Reiciendis expedita porro magnam omnis asperiores doloremque, numquam, consequatur quae ipsum iusto nostrum cumque sunt quos?</p>
+    </header>
+
+    <div class="box box1">
+        <h2>Exploring Overflow</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, nihil laudantium, perferendis tenetur accusamus nostrum a rerum ipsam voluptas vero aspernatur nam id sapiente, iure cum eius expedita esse eligendi aut dicta modi in molestiae ea! Cupiditate itaque cumque ducimus deserunt iure culpa distinctio facilis alias. Iure fuga vero dolorem. Atque, tempore? Enim ducimus atque odit aliquid vitae, sint perferendis error unde? Inventore quasi quidem earum in ratione ducimus iure, nemo accusantium expedita nihil illum aperiam aspernatur, necessitatibus unde delectus exercitationem aut ea itaque eius est hic, doloribus accusamus voluptatem tempora! Sed minima laborum aspernatur ipsum ipsam, accusamus quo ducimus, placeat nemo, qui ab quasi voluptates harum voluptate reprehenderit quam illum asperiores praesentium dicta cumque ullam suscipit. Maiores error sunt eaque, quae distinctio deleniti repellendus corrupti dolore debitis exercitationem quisquam, ad cum voluptas eius veritatis totam sequi omnis libero rem asperiores sint velit facilis? Earum dolorem unde dolore sunt ea id sit. Mollitia dolores natus odit amet, ullam libero veniam reiciendis! Voluptatum culpa doloremque totam nihil, dicta vero non deleniti aliquam impedit ipsa iure ex. Voluptatum quidem quibusdam omnis consequatur commodi, quas labore tenetur doloremque deleniti perspiciatis? Saepe ut beatae ullam accusamus eos quidem laudantium id? Porro omnis quisquam impedit hic odio, voluptas eos, magni saepe magnam, reprehenderit soluta aut sint inventore laborum nobis qui dolorem ea rerum iusto explicabo in expedita pariatur. Facilis optio eum eveniet veritatis, alias nam maxime asperiores autem vel quaerat corporis temporibus molestiae ad adipisci, sit harum aliquam rem suscipit modi sint enim? In, laudantium?</p>
+    </div>
+    <div class="box box2">
+        <h2>Exploring Text Overflow</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quaerat quod, quidem fuga nisi voluptatibus deleniti, sunt omnis vero perferendis, quam maiores nostrum iusto perspiciatis assumenda? Nostrum, tempore expedita mollitia asperiores consequuntur dolorum alias consequatur laudantium provident omnis! Nisi doloribus nesciunt error voluptatum consequuntur omnis quidem suscipit minus neque, soluta in nam, non quis, perferendis fuga quisquam eveniet debitis. Architecto ipsam beatae quia tempora iste sit perferendis placeat nostrum ea natus! Soluta nemo culpa quae excepturi assumenda facilis, laudantium explicabo laboriosam non quia quidem et ea, sit omnis iusto aliquid commodi, dignissimos iste accusamus! Quisquam, eos nobis odio optio suscipit recusandae molestiae provident dicta temporibus, perferendis ab at quidem maxime exercitationem officia natus. Cum sequi quae ex, reiciendis mollitia totam perspiciatis veniam. Maxime, ullam cupiditate quos deserunt harum ut itaque suscipit, accusantium est cumque consectetur ipsam, culpa dignissimos quae fugit! Nulla magni eos porro placeat quam maxime quis voluptates! Aut, assumenda? Possimus est sint quibusdam odio? Quo, distinctio, ex dignissimos magnam fuga similique quia voluptatem unde debitis vel corrupti incidunt suscipit soluta! Libero explicabo et fugiat saepe dolor ipsum voluptatem eius! Placeat, earum! Obcaecati mollitia officia consequuntur vero laboriosam velit, aut nesciunt tempora sapiente ea suscipit perspiciatis enim quas autem consequatur, voluptatem impedit facilis ratione ex ducimus, aliquam rerum accusamus voluptatum aspernatur! Nobis nihil ipsum, dolore veritatis a veniam corrupti, placeat error debitis assumenda ex delectus modi pariatur blanditiis suscipit, illo explicabo dolor temporibus nesciunt in consequatur! Dicta ipsam voluptatum, vitae accusamus consectetur perspiciatis, itaque corrupti dignissimos necessitatibus aperiam facilis?</p>
+    </div>
+    
+</body>
+</html>
