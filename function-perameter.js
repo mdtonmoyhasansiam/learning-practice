@@ -1,9 +1,13 @@
+// বর্গ প্যারামিটার
+
 function squar (number){
     const borgo = number * number;
     console.log(borgo);    
 }
 
 squar (505);
+
+// যোগ প্যারামিটার
 
 function add (a, b){
     const sum = a + b;
@@ -18,3 +22,12 @@ function addMultiple (x, y, z){
 }
 
 addMultiple(25, 65, 80);
+
+// বিয়োগ প্যারামিটার
+
+function Subtraction (z, x){
+    const biyog = z-x;
+    console.log(biyog);
+}
+
+Subtraction(875, 874);
