@@ -7,3 +7,11 @@ function openVScode (){
 }
 
 openVScode ();
+
+function openInstagram (){
+    console.log("Phone hate neo");
+    console.log("Lock khule instagram app e jao");
+    console.log("Then id-password diye login koro");
+}
+
+openInstagram ();
