@@ -31,3 +31,12 @@ function Subtraction (z, x){
 }
 
 Subtraction(875, 874);
+
+//ভাগ প্যারামিটার
+
+function division (x, y){
+    const vag = x/y;
+    console.log(vag);
+}
+
+division(100, 10);
