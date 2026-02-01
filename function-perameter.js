@@ -11,3 +11,10 @@ function add (a, b){
 }
 
 add(1,82);
+
+function addMultiple (x, y, z){
+    const multipleAdd = x+y+z;
+    console.log(multipleAdd)
+}
+
+addMultiple(25, 65, 80);
