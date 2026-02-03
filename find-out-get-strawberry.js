@@ -10,3 +10,18 @@ if(kabul > cabul){
 else{
     console.log("cabul will get the strawberry");
 }
+
+// Way 02
+
+function willGet (num1, num2){
+    if (num1 > num2){
+        return num1
+    }
+
+    else{
+        return num2
+    }
+}
+
+const finalGet = willGet(30, 20);
+console.log("Congratulations, you are winner", finalGet);
